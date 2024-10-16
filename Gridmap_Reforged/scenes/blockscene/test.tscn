@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxx1bf22vgono"]
+
+[ext_resource type="ArrayMesh" uid="uid://dk5cx4l4it0ah" path="res://addons/Gridmap_Reforged/meshs/0, 0-0.obj" id="1_w582n"]
+
+[node name="Test" type="Node3D"]
+
+[node name="0,0-0" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.32, 0, 0, 0, 0.32, 0, 0, 0, 0.32, 0, 0, 0)
+mesh = ExtResource("1_w582n")

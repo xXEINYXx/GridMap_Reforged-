@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bd15kgl5ehw8f"]
+
+[ext_resource type="Script" path="res://addons/Gridmap_Enhanced/scenes/MeshInstance3D.gd" id="2_piy6k"]
+
+[node name="GridMap_Enhanced" type="Node3D"]
+
+[node name="GridDisplay" type="MeshInstance3D" parent="."]
+script = ExtResource("2_piy6k")

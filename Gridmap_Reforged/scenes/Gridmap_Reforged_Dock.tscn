@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://b3hkgq3w0s326"]
+
+[node name="GridmapReforgedDock" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Floor" type="Label" parent="."]
+layout_mode = 0
+offset_top = 8.0
+offset_right = 44.0
+offset_bottom = 31.0
+text = "Floor movement:"
+
+[node name="DOWN" type="Button" parent="."]
+layout_mode = 0
+offset_top = 32.0
+offset_right = 64.0
+offset_bottom = 64.0
+text = "DOWN"
+
+[node name="UP" type="Button" parent="."]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 32.0
+offset_right = 136.0
+offset_bottom = 64.0
+text = "UP
+"
+
+[node name="Comment" type="Label" parent="."]
+layout_mode = 0
+offset_top = 64.0
+offset_right = 44.0
+offset_bottom = 87.0
+text = "(Menu to select floor)"
