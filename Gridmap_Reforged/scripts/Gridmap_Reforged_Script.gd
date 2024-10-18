@@ -11,6 +11,7 @@ extends Node3D
 var gridMap_Reforged: Node3D  # Variable pour l'instance de GridMap_Reforged
 var GridMap_Reforged: PackedScene = preload("res://addons/Gridmap_Reforged/scenes/Gridmap_Reforged.tscn")
 var mesh_to_place
+var GridCoord 
 var previous_floor: int = floor  # Stocker la valeur précédente du sol
 
 
@@ -48,7 +49,7 @@ func _process(delta):
 				var result = world3D.intersect_ray(RayQuery)
 				if result:
 					mesh_to_place = instance.instantiate()
-					mesh_to_place.position = Vector3(result.position.x,result.position.y,result.position.z)
+					mesh_to_place.position = Vector3(floor(result.position.x/GridCoord.grid_width)*GridCoord.grid_width,floor(result.position.y/GridCoord.grid_height)*GridCoord.grid_height,result.position.z)
 					add_child(mesh_to_place)
 					print("Block placed")
 			
@@ -56,7 +57,8 @@ func _enter_tree():
 	# Instancier GridMap_Reforged et l'ajouter comme enfant
 	gridMap_Reforged = GridMap_Reforged.instantiate() as Node3D
 	add_child(gridMap_Reforged)
-	print("GridMap_Reforged ajouté")	
+	print("GridMap_Reforged ajouté")
+	GridCoord = gridMap_Reforged.find_child("GridCoord", true, false)	
 
 func _exit_tree():
 	# Libérer l'instance de GridMap_Reforged lorsqu'elle est supprimée de l'arbre
