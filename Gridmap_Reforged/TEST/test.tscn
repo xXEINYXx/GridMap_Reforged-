@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://boxr8gch5tc42"]
+[gd_scene load_steps=3 format=3 uid="uid://boxr8gch5tc42"]
 
 [ext_resource type="Script" path="res://addons/Gridmap_Reforged/scripts/Gridmap_Reforged_Script.gd" id="1_k7k0o"]
+[ext_resource type="PackedScene" uid="uid://bxx1bf22vgono" path="res://addons/Gridmap_Reforged/scenes/blockscene/test.tscn" id="2_go3mb"]
 
 [node name="Test" type="Node3D"]
 
 [node name="Gridmap_Reforged" type="Node3D" parent="."]
 script = ExtResource("1_k7k0o")
+instance = ExtResource("2_go3mb")
