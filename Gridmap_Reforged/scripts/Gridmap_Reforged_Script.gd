@@ -1,6 +1,6 @@
 @tool
 extends Node3D
-
+#floor var + setter + call chenge_grid_Y function
 @export var floor:int = 0:
 	set(val):
 		if(val != floor):
@@ -31,11 +31,6 @@ func _ready():
 # Processus qui s'exécute à chaque frame en mode éditeur
 func _process(delta):
 	if Engine.is_editor_hint():
-	 	#Comparer la valeur précédente de 'floor' avec la nouvelle
-		if floor != previous_floor:
-			previous_floor = floor
-			change_grid_Y()
-
 		#MOUSE POSITION IN THE EDITOR
 		
 		var mouse_position: Vector2 = EditorInterface.get_editor_viewport_3d().get_mouse_position()
