@@ -32,26 +32,31 @@ func _ready():
 # Processus qui s'exécute à chaque frame en mode éditeur
 func _process(delta):
 	if Engine.is_editor_hint():
+		var selection = EditorInterface.get_selection()
+		selection.get_selected_nodes()
+		print(selection.get_selected_nodes())
+		if self in selection.get_selected_nodes():
+		
 		#MOUSE POSITION IN THE EDITOR
 		
-		var mouse_position: Vector2 = EditorInterface.get_editor_viewport_3d().get_mouse_position()
-		var editor_viewport = EditorInterface.get_editor_viewport_3d().get_visible_rect()
-		
-		if editor_viewport.has_point(mouse_position):
-				
-		#SYSTEM DE PLACEMENT DE BLOCK GRACE A LA VAR MESH, AU CLIC DE LA SOURIS
-			if Input.is_action_just_pressed("clic_gauche"):
-				var origin: Vector3 = EditorInterface.get_editor_viewport_3d().get_camera_3d().project_ray_origin(mouse_position)
-				var direction: Vector3 = EditorInterface.get_editor_viewport_3d().get_camera_3d().project_ray_normal(mouse_position)
-				var distance = 1000
-				var world3D = get_world_3d().direct_space_state
-				var RayQuery = PhysicsRayQueryParameters3D.create(origin,direction*distance)
-				var result = world3D.intersect_ray(RayQuery)
-				if result:
-					mesh_to_place = instance.instantiate()
-					mesh_to_place.position = Vector3(floor(result.position.x/GridCoord.grid_width)*GridCoord.grid_width,floor(result.position.y/GridCoord.grid_height)*GridCoord.grid_height,result.position.z)
-					add_child(mesh_to_place)
-					print("Block placed")
+			var mouse_position: Vector2 = EditorInterface.get_editor_viewport_3d().get_mouse_position()
+			var editor_viewport = EditorInterface.get_editor_viewport_3d().get_visible_rect()
+			
+			if editor_viewport.has_point(mouse_position):
+					
+			#SYSTEM DE PLACEMENT DE BLOCK GRACE A LA VAR MESH, AU CLIC DE LA SOURIS
+				if Input.is_action_just_pressed("clic_gauche"):
+					var origin: Vector3 = EditorInterface.get_editor_viewport_3d().get_camera_3d().project_ray_origin(mouse_position)
+					var direction: Vector3 = EditorInterface.get_editor_viewport_3d().get_camera_3d().project_ray_normal(mouse_position)
+					var distance = 1000
+					var world3D = get_world_3d().direct_space_state
+					var RayQuery = PhysicsRayQueryParameters3D.create(origin,direction*distance)
+					var result = world3D.intersect_ray(RayQuery)
+					if result:
+						mesh_to_place = instance.instantiate()
+						mesh_to_place.position = Vector3(floor(0.5 + result.position.x/GridCoord.cell_size)*GridCoord.cell_size,result.position.y,floor(0.5 + result.position.z/GridCoord.cell_size)*GridCoord.cell_size)
+						add_child(mesh_to_place)
+						print("Block placed")
 			
 func _enter_tree():
 	# Instancier GridMap_Reforged et l'ajouter comme enfant
