@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://bd15kgl5ehw8f"]
+[gd_scene load_steps=7 format=3 uid="uid://bd15kgl5ehw8f"]
 
 [ext_resource type="Shader" uid="uid://wgvyrxi7mllq" path="res://addons/Gridmap_Reforged/shaders/GridDisplayShader.tres" id="2_1u6tp"]
+[ext_resource type="Texture2D" uid="uid://j51hvk044h30" path="res://addons/Gridmap_Reforged/shaders/mask.png" id="2_5eura"]
 [ext_resource type="Script" path="res://addons/Gridmap_Reforged/scripts/GridCoord.gd" id="2_8dfx2"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_8oud4"]
@@ -8,10 +9,13 @@ render_priority = 0
 shader = ExtResource("2_1u6tp")
 shader_parameter/Spacing = 0.03
 shader_parameter/Repeat = Vector2(1, 1)
+shader_parameter/Texture2DParameter = ExtResource("2_5eura")
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_rwgch"]
 material = SubResource("ShaderMaterial_8oud4")
 size = Vector2(4096, 4069)
+subdivide_width = 500
+subdivide_depth = 500
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_qoms2"]
 data = PackedVector3Array(2048, 0, 2034.5, -2048, 0, 2034.5, 2048, 0, -2034.5, -2048, 0, 2034.5, -2048, 0, -2034.5, 2048, 0, -2034.5)
@@ -19,6 +23,7 @@ data = PackedVector3Array(2048, 0, 2034.5, -2048, 0, 2034.5, 2048, 0, -2034.5, -
 [node name="GridMap_Reforged" type="Node3D"]
 
 [node name="GridDisplay" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.224382)
 mesh = SubResource("PlaneMesh_rwgch")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="GridDisplay"]
@@ -28,5 +33,4 @@ shape = SubResource("ConcavePolygonShape3D_qoms2")
 
 [node name="GridCoord" type="Node3D" parent="GridDisplay"]
 script = ExtResource("2_8dfx2")
-grid_width = 500
-grid_height = 500
+grid_width = 4096

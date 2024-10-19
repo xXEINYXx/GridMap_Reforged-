@@ -1,12 +1,20 @@
 @tool
+class_name Gridmap_Reforged
 extends Node3D
 #floor var + setter + call chenge_grid_Y function
+@export_category("Floor selection")
 @export var floor:int = 0:
 	set(val):
 		if(val != floor):
 			floor = val
 			change_grid_Y()
-@export var instance: PackedScene 
+
+@export_category("TileSet")	
+@export_group("1")		
+@export var tileset1_selected : bool = true
+@export var instance1: PackedScene 
+@export var instance2: PackedScene
+@export var instance3: PackedScene  
 
 var gridMap_Reforged: Node3D  # Variable pour l'instance de GridMap_Reforged
 var GridMap_Reforged: PackedScene = preload("res://addons/Gridmap_Reforged/scenes/Gridmap_Reforged.tscn")
@@ -32,6 +40,8 @@ func _ready():
 # Processus qui s'exécute à chaque frame en mode éditeur
 func _process(delta):
 	if Engine.is_editor_hint():
+		
+		self.position = Vector3(0,0,0)
 		var selection = EditorInterface.get_selection()
 		selection.get_selected_nodes()
 		if self in selection.get_selected_nodes():
@@ -55,17 +65,26 @@ func _process(delta):
 					var RayQuery = PhysicsRayQueryParameters3D.create(origin,direction*distance)
 					var result = world3D.intersect_ray(RayQuery)
 					if result:
-						mesh_to_place = instance.instantiate()
+						mesh_to_place = instance1.instantiate()
 						mesh_to_place.position = Vector3(floor(0.5 + result.position.x/GridCoord.cell_size)*GridCoord.cell_size,result.position.y,floor(0.5 + result.position.z/GridCoord.cell_size)*GridCoord.cell_size)
-						add_child(mesh_to_place)
+						#make it unclickable on the editor
+						mesh_to_place.set_meta("_edit_lock_", true)
+						add_child(mesh_to_place,false,Node3D.INTERNAL_MODE_BACK)
+						mesh_to_place.set_owner(get_tree().get_edited_scene_root())
 						print("Block placed")
+						
 		else:
 			var GridDisplay = gridMap_Reforged.find_child("GridDisplay", true, false)
 			GridDisplay.hide()	
+			
+			
+			
 func _enter_tree():
 	# Instancier GridMap_Reforged et l'ajouter comme enfant
 	gridMap_Reforged = GridMap_Reforged.instantiate() as Node3D
 	add_child(gridMap_Reforged)
+	gridMap_Reforged.set_owner(get_tree().get_edited_scene_root())
+	gridMap_Reforged.set_meta("_edit_lock_", true)
 	print("GridMap_Reforged ajouté")
 	GridCoord = gridMap_Reforged.find_child("GridCoord", true, false)	
 	
