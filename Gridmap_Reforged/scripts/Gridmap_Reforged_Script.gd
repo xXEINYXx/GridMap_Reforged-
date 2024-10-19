@@ -34,8 +34,10 @@ func _process(delta):
 	if Engine.is_editor_hint():
 		var selection = EditorInterface.get_selection()
 		selection.get_selected_nodes()
-		print(selection.get_selected_nodes())
 		if self in selection.get_selected_nodes():
+			
+			var GridDisplay = gridMap_Reforged.find_child("GridDisplay", true, false)
+			GridDisplay.show()
 		
 		#MOUSE POSITION IN THE EDITOR
 		
@@ -57,14 +59,16 @@ func _process(delta):
 						mesh_to_place.position = Vector3(floor(0.5 + result.position.x/GridCoord.cell_size)*GridCoord.cell_size,result.position.y,floor(0.5 + result.position.z/GridCoord.cell_size)*GridCoord.cell_size)
 						add_child(mesh_to_place)
 						print("Block placed")
-			
+		else:
+			var GridDisplay = gridMap_Reforged.find_child("GridDisplay", true, false)
+			GridDisplay.hide()	
 func _enter_tree():
 	# Instancier GridMap_Reforged et l'ajouter comme enfant
 	gridMap_Reforged = GridMap_Reforged.instantiate() as Node3D
 	add_child(gridMap_Reforged)
 	print("GridMap_Reforged ajouté")
 	GridCoord = gridMap_Reforged.find_child("GridCoord", true, false)	
-
+	
 func _exit_tree():
 	# Libérer l'instance de GridMap_Reforged lorsqu'elle est supprimée de l'arbre
 	if gridMap_Reforged:
