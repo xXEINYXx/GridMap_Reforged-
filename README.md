@@ -18,3 +18,13 @@ For now i've not push to far the work but i'm already proud of me, this project 
 If u have any advice to give, feel free to send me some advice (simple please, i'm not a good dev, I learn by making, give me some doc or explaination of your idea <3)
 
 Thanks in advance and I hope soon i reach my goal about this plugin !
+
+ROADMAP : 
+- Custom node (class) : Done !
+- In editor instance placement : Done !
+- Editor Dock : WIP
+- Custom method to get cell instance : WIP
+- Custom method : to place block / delete block in runtime : WIP
+- Chunck system : WIP (don't know where to start)
+- AutoTile system for 3D (for now only horizontally, maybe in verticale too idk) : WIP
+- Performance test (Idea : Add visibility notifier on each instance, to display or not) : WIP
