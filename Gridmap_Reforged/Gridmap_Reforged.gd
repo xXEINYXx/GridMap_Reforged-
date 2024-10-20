@@ -25,7 +25,7 @@ func _edit(object: Object) -> void:
 #todo: add any selection tasks for the currentGridmapReforged here
 
 func _input(event):
-	if Engine.is_editor_hint() || (!currentGridmapReforged): #we are not in the editor or we are not processing inputs for a Gridmap_Reforged
+	if !Engine.is_editor_hint() || (!currentGridmapReforged): #we are not in the editor or we are not processing inputs for a Gridmap_Reforged
 		return
 	if event is InputEventMouseMotion:
 		currentGridmapReforged.MouseMoved(event)
