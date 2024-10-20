@@ -35,7 +35,7 @@ func _init():
 # Appelée lorsque le noeud entre dans l'arbre de la scène pour la première fois
 func _ready():
 	pass
-
+		
 
 # Processus qui s'exécute à chaque frame en mode éditeur
 func _process(delta):
@@ -99,4 +99,5 @@ func change_grid_Y():
 		var grid_display = gridMap_Reforged.get_child(0) as Node3D
 		grid_display.position.y = floor
 
-
+func plugin_function_test(myEditorPlugin: EditorPlugin):
+	print(self, "is me")

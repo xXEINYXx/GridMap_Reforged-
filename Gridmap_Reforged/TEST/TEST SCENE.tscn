@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxsstmcn2q7l6"]
+
+[ext_resource type="Script" path="res://addons/Gridmap_Reforged/scripts/Gridmap_Reforged_Script.gd" id="1_7d78c"]
+[ext_resource type="PackedScene" uid="uid://bd15kgl5ehw8f" path="res://addons/Gridmap_Reforged/scenes/Gridmap_Reforged.tscn" id="2_c5j51"]
+
+[node name="TestScene" type="Node3D"]
+
+[node name="Gridmap_Reforged" type="Node3D" parent="."]
+script = ExtResource("1_7d78c")
+
+[node name="GridMap_Reforged" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_c5j51")]
+metadata/_edit_lock_ = true
