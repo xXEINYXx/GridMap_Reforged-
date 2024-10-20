@@ -21,10 +21,11 @@ var GridMap_Reforged: PackedScene = preload("res://addons/Gridmap_Reforged/scene
 var mesh_to_place
 var GridCoord 
 var GridDisplay
-#also remove unused variable: var previous_floor: int = floor
 
 func MouseMoved(event):
-	self.position = Vector3(0,0,0) #this is not a good idea really, we want to be able to put the gridmap anywhere and still have it behave right
+	self.position = Vector3(0,0,0)
+	self.rotation = Vector3(0,0,0)
+	#this is not a good idea really, we want to be able to put the gridmap anywhere and still have it behave right
 	var mouse_position: Vector2 = EditorInterface.get_editor_viewport_3d().get_mouse_position()
 	var editor_viewport = EditorInterface.get_editor_viewport_3d().get_visible_rect()
 	var origin: Vector3 = EditorInterface.get_editor_viewport_3d().get_camera_3d().project_ray_origin(mouse_position)
@@ -65,16 +66,17 @@ func _ready():
 	GridDisplay.hide()
 
 func _enter_tree():
-	# Instancier GridMap_Reforged et l'ajouter comme enfant
-	gridMap_Reforged = GridMap_Reforged.instantiate() as Node3D
-	add_child(gridMap_Reforged)
-	gridMap_Reforged.set_owner(get_tree().get_edited_scene_root())
-	gridMap_Reforged.set_meta("_edit_lock_", true)
-	print("GridMap_Reforged ajouté")
-	GridCoord = gridMap_Reforged.find_child("GridCoord", true, false)
-	GridDisplay = gridMap_Reforged.find_child("GridDisplay", true, false)
-	
-	
+	if !gridMap_Reforged:
+	 # Instancier GridMap_Reforged et l'ajouter comme enfant
+		gridMap_Reforged = GridMap_Reforged.instantiate() as Node3D
+		add_child(gridMap_Reforged)
+		gridMap_Reforged.set_owner(get_tree().get_edited_scene_root())
+		gridMap_Reforged.set_meta("_edit_lock_", true)
+		print("GridMap_Reforged ajouté")
+		GridCoord = gridMap_Reforged.find_child("GridCoord", true, false)
+		GridDisplay = gridMap_Reforged.find_child("GridDisplay", true, false)
+		GridDisplay.position.y = floor
+
 func _exit_tree():
 	# Libérer l'instance de GridMap_Reforged lorsqu'elle est supprimée de l'arbre
 	if gridMap_Reforged:
@@ -83,7 +85,7 @@ func _exit_tree():
 
 func Selected(): #when editor plugin sees us
 	GridDisplay.show()
-	GridDisplay.position.y = floor
+#	GridDisplay.position.y = floor
 
 func Deselected(): #when editor plugin does not see us
 	GridDisplay.hide()

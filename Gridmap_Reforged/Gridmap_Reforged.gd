@@ -22,13 +22,16 @@ func _edit(object: Object) -> void:
 	currentGridmapReforged = object
 	currentGridmapReforged.Selected()
 
-func _input(event):
-	if !Engine.is_editor_hint() || (!currentGridmapReforged): #we are not in the editor or we are not processing inputs for a Gridmap_Reforged
-		return
+func _forward_3d_gui_input(viewport_camera: Camera3D, event: InputEvent) -> int:
+	if !Engine.is_editor_hint() || !currentGridmapReforged: #we are not in the editor or we are not processing inputs for a Gridmap_Reforged
+		return EditorPlugin.AFTER_GUI_INPUT_PASS
 	if event is InputEventMouseMotion:
 		currentGridmapReforged.MouseMoved(event)
 	if event.is_action("clic_gauche") && Input.is_action_just_pressed("clic_gauche"):
 		currentGridmapReforged.ClickHappened(event)
+	return EditorPlugin.AFTER_GUI_INPUT_PASS
+
+
 
 func _enter_tree():
 	pass
