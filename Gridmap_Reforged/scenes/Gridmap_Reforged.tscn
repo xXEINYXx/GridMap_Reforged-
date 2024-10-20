@@ -24,7 +24,7 @@ data = PackedVector3Array(2048, 0, 2034.5, -2048, 0, 2034.5, 2048, 0, -2034.5, -
 [node name="GridMap_Reforged" type="Node3D"]
 
 [node name="GridDisplay" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 11)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 1)
 visible = false
 mesh = SubResource("PlaneMesh_rwgch")
 script = ExtResource("3_inyge")

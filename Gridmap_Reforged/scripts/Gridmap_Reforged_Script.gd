@@ -24,13 +24,7 @@ var previous_floor: int = floor  # Stocker la valeur précédente du sol
 
 
 
-func _init():
-	if Engine.is_editor_hint():
-		InputMap.add_action("clic_gauche")
-		var clic_gauche = InputEventMouseButton.new()
-		clic_gauche.button_index = MOUSE_BUTTON_LEFT
-		clic_gauche.pressed = true
-		InputMap.action_add_event("clic_gauche", clic_gauche)
+
 	
 # Appelée lorsque le noeud entre dans l'arbre de la scène pour la première fois
 func _ready():
