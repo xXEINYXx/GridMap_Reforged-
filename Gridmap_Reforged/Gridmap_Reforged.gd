@@ -17,13 +17,20 @@ func _handles(object: Object):
 func _edit(object: Object) -> void:
 	currentGridmapReforged = object
 	if(!currentGridmapReforged):
+		currentGridmapReforged.GridDisplay.hide()
+	#todo: add any unselection tasks for the currentGridmapReforged here
 		return
-	currentGridmapReforged.plugin_function_test(self)
+	#not needed anymore currentGridmapReforged.plugin_function_test(self)
+	currentGridmapReforged.GridDisplay.show()
+#todo: add any selection tasks for the currentGridmapReforged here
 
-#func _input(event):
-	#if Engine.is_editor_hint():
-		#if event.is_action_pressed(MOUSE_BUTTON_LEFT):
-			#currentGridmapReforged.plugin_function_test(self)
+func _input(event):
+	if Engine.is_editor_hint() || (!currentGridmapReforged): #we are not in the editor or we are not processing inputs for a Gridmap_Reforged
+		return
+	if event is InputEventMouseMotion:
+		currentGridmapReforged.MouseMoved(event)
+	if event.is_action("clic_gauche") && Input.is_action_just_pressed("clic_gauche"):
+		currentGridmapReforged.ClickHappened(event)
 
 func _enter_tree():
 	pass
