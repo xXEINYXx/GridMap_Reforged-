@@ -16,12 +16,15 @@ func _handles(object: Object):
 
 func _edit(object: Object) -> void:
 	currentGridmapReforged = object
-	if(!currentGridmapReforged):
+	if (!currentGridmapReforged):
+		print("caché")
 		currentGridmapReforged.GridDisplay.hide()
+		
 	#todo: add any unselection tasks for the currentGridmapReforged here
 		return
 	#not needed anymore currentGridmapReforged.plugin_function_test(self)
 	currentGridmapReforged.GridDisplay.show()
+	print("visible")
 #todo: add any selection tasks for the currentGridmapReforged here
 
 func _input(event):

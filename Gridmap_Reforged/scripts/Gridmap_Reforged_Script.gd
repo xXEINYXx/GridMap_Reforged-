@@ -7,7 +7,7 @@ extends Node3D
 	set(val):
 		if(val != floor):
 			floor = val
-			change_grid_Y()
+			GridDisplay.position.y = floor
 
 @export_category("TileSet")	
 @export_group("1")		
@@ -25,7 +25,7 @@ var GridDisplay
 
 func MouseMoved(event):
 	self.position = Vector3(0,0,0) #this is not a good idea really, we want to be able to put the gridmap anywhere and still have it behave right
-
+	
 func ClickHappened(event):
 	var mouse_position: Vector2 = EditorInterface.get_editor_viewport_3d().get_mouse_position()
 	var editor_viewport = EditorInterface.get_editor_viewport_3d().get_visible_rect()
@@ -47,8 +47,7 @@ func ClickHappened(event):
 
 # Appelée lorsque le noeud entre dans l'arbre de la scène pour la première fois
 func _ready():
-	pass
-		
+	GridDisplay.hide()
 
 # Processus qui s'exécute à chaque frame en mode éditeur
 #func _process(delta):
@@ -88,9 +87,7 @@ func _ready():
 		#else:
 			#var GridDisplay = gridMap_Reforged.find_child("GridDisplay", true, false)
 			#GridDisplay.hide()	
-			
-			
-			
+
 func _enter_tree():
 	# Instancier GridMap_Reforged et l'ajouter comme enfant
 	gridMap_Reforged = GridMap_Reforged.instantiate() as Node3D
@@ -105,12 +102,7 @@ func _exit_tree():
 	# Libérer l'instance de GridMap_Reforged lorsqu'elle est supprimée de l'arbre
 	if gridMap_Reforged:
 		gridMap_Reforged.queue_free()
-
-# Change la position en Y du grid_map
-func change_grid_Y():
-	if gridMap_Reforged:
-		var grid_display = gridMap_Reforged.get_child(0) as Node3D
-		grid_display.position.y = floor
-
+func gridDisplay_hide():
+	self.GridDisplay.hide()
 #func plugin_function_test(myEditorPlugin: EditorPlugin):
 	#print(self, "is me")
