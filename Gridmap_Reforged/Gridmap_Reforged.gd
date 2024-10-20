@@ -15,17 +15,12 @@ func _handles(object: Object):
 	return object is Gridmap_Reforged
 
 func _edit(object: Object) -> void:
-	currentGridmapReforged = object
-	if (!currentGridmapReforged):
-		print("caché")
-		currentGridmapReforged.GridDisplay.hide()
-		
-	#todo: add any unselection tasks for the currentGridmapReforged here
+	if (!object):
+		currentGridmapReforged.Deselected()
+		currentGridmapReforged = object
 		return
-	#not needed anymore currentGridmapReforged.plugin_function_test(self)
-	currentGridmapReforged.GridDisplay.show()
-	print("visible")
-#todo: add any selection tasks for the currentGridmapReforged here
+	currentGridmapReforged = object
+	currentGridmapReforged.Selected()
 
 func _input(event):
 	if !Engine.is_editor_hint() || (!currentGridmapReforged): #we are not in the editor or we are not processing inputs for a Gridmap_Reforged
@@ -42,6 +37,4 @@ func _enter_tree():
 func _exit_tree():
 	pass
 	
-func switchGridmapReforged(newGridmapReforged:Gridmap_Reforged):
-	currentGridmapReforged = newGridmapReforged
-	currentGridmapReforged.plugin_function_test(self)
+
