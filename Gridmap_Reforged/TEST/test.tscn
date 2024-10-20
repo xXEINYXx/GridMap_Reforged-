@@ -105,5 +105,1053 @@ metadata/_edit_lock_ = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, -4.76837e-07, -1)
 metadata/_edit_lock_ = true
 
+[node name="@Node3D@41789" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@41790" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, -9.53674e-07, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@41791" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, -9.53674e-07, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@41792" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@41793" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -9.53674e-07, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@41794" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -9.53674e-07, 9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@41795" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -9.53674e-07, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@41796" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 9.53674e-07, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@41797" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -9.53674e-07, 9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@41798" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@41799" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@41800" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42371" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42372" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42373" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 9.53674e-07, -3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42374" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42375" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42376" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42377" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42378" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -4.76837e-07, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42379" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42380" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 4.76837e-07, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42381" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42382" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, -4.76837e-07, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42383" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42384" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 9.53674e-07, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42385" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 9.53674e-07, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42386" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42387" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42388" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42389" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42390" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 9.53674e-07, 7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42391" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, -9.53674e-07, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42392" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42393" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 9.53674e-07, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42394" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42395" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42396" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, -9.53674e-07, 9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42397" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42398" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 9.53674e-07, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42399" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42400" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 9.53674e-07, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42401" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 9.53674e-07, 9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42402" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42403" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -9.53674e-07, 10)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42404" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42405" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42406" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42407" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, -1.90735e-06, 2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42408" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42409" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 9.53674e-07, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42410" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, -9.53674e-07, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42411" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42412" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42413" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42414" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 9.53674e-07, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42415" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42416" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 9.53674e-07, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42417" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, -9.53674e-07, 7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42418" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42419" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42420" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 9.53674e-07, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42421" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 9.53674e-07, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42422" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42423" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, -9.53674e-07, 9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42424" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, -9.53674e-07, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42425" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42426" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 4.76837e-07, -2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42427" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42428" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42429" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 4.76837e-07, -3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@42430" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@44373" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19, 0, 40)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@44379" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 9.53674e-07, 10)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@44380" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 14)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@44381" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@44382" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@44383" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@44384" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 9.53674e-07, -12)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@44385" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, -9.53674e-07, -12)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@44386" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@44387" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 109, 0, 46)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@48750" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -101, 0, -60)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@50323" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 15)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@50324" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -95, 0, -59)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@50325" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@50326" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1.90735e-06, 11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@57329" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 1.90735e-06, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@60893" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41, 0, -13)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@60894" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@60895" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@60896" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17, 1.90735e-06, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@60902" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@60903" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36, 0, 2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@60904" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@60905" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31, 0, 7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@60906" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31, 0, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@60912" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 1.90735e-06, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@60913" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38, 1.90735e-06, -16)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@60914" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36, 0, -12)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66720" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66721" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66722" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, -9.53674e-07, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66723" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66724" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66725" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, -9.53674e-07, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66726" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66727" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, -9.53674e-07, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66728" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66729" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66730" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66731" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66732" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66733" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66734" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, -9.53674e-07, -2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66735" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 9.53674e-07, -2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66736" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, -2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66737" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, -1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66738" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66739" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, -9.53674e-07, -1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66740" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 0)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66741" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66742" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, -9.53674e-07, 0)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66743" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66744" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66745" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, -9.53674e-07, 2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66746" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66747" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66748" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 9.53674e-07, 0)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66749" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 9.53674e-07, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66750" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, -9.53674e-07, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66751" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66752" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, -9.53674e-07, 2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66753" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 9.53674e-07, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66754" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66755" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 9.53674e-07, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66756" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66757" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66758" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 9.53674e-07, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66759" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, 2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66760" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66761" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66762" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66763" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66764" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66765" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, -9.53674e-07, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66766" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 9.53674e-07, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@66767" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67802" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, -4.76837e-07, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67803" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 4.76837e-07, 2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67804" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67805" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67806" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, -4.76837e-07, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67807" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67808" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, 2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67809" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67810" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67811" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, -4.76837e-07, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67812" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, -9.53674e-07, 7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67813" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67814" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 1.90735e-06, 7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67815" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 9.53674e-07, 7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67816" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 1.90735e-06, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67817" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67818" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67819" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67820" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 9.53674e-07, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67821" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67822" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67823" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67824" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 1.90735e-06, 9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67825" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 9.53674e-07, 9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67826" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -241, 1.90735e-06, -76)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67827" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 9.53674e-07, 11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67828" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 9.53674e-07, 11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67829" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, 14)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67830" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19, 9.53674e-07, 0)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67831" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 9.53674e-07, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67832" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67833" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67838" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19, 0, -7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67839" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67840" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67841" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19, -9.53674e-07, -8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67842" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67843" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67844" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19, -9.53674e-07, -9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67845" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41, 1.90735e-06, -13)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67846" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 1.90735e-06, -14)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67847" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39, 1.90735e-06, -14)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67848" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39, 1.90735e-06, -15)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67849" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39, 0, -15)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67850" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39, 0, -16)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67851" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39, 4.76837e-07, -17)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67860" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, -6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67861" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, -4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67862" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -5)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67863" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, -1.90735e-06, -6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67864" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 1.90735e-06, -9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67865" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, -8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67866" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, -1.90735e-06, -7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67867" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67868" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, -1.90735e-06, -8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67869" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, -1.90735e-06, -9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67870" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, -1.90735e-06, -10)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67871" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67872" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67873" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, -1.90735e-06, -9)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67874" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, -1.90735e-06, -7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67875" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67876" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17, 0, -4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67877" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67878" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, -1.90735e-06, -6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67879" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, -1.90735e-06, -7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67880" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 0, -3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67881" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67882" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67883" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, -1.90735e-06, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67884" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17, 0, 7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67885" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, -1.90735e-06, 8)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67886" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, -1.90735e-06, 11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67887" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17, -1.90735e-06, 13)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67888" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, -1.90735e-06, 10)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67889" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31, -1.90735e-06, 0)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67890" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -10)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67891" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -52, 0, 79)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67892" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67893" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67894" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67895" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67896" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67897" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 4.76837e-07, 0)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67898" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 0)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67899" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67900" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67901" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 2)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67902" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67903" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67904" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67905" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -9.53674e-07, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67906" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -9.53674e-07, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67911" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 303, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67912" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 311, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67913" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 321, 1.90735e-06, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67914" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 385, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67915" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 434, 0, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67916" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 441, 1.90735e-06, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67917" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 484, 0, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67918" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 491, 1.90735e-06, 4)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67919" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 532, 1.90735e-06, 3)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67920" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 538, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67921" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 581, 0, 7)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67922" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 590, 3.8147e-06, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67923" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 597, 0, 6)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@67924" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 694, 0, 11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@71002" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 695, 0, 11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@71003" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 697, -3.8147e-06, 12)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@71004" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 698, -3.8147e-06, 11)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@72985" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -80, -3.05176e-05, 60)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@76550" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 102, 0, -38)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@76563" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 596, -7.62939e-06, 1)
+metadata/_edit_lock_ = true
+
+[node name="@Node3D@76564" type="Node3D" parent="Gridmap_Reforged" instance=ExtResource("2_go3mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 611, 0, 0)
+metadata/_edit_lock_ = true
+
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.5641, 6.94299, 37.994)

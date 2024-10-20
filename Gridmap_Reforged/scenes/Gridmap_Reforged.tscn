@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://bd15kgl5ehw8f"]
+[gd_scene load_steps=8 format=3 uid="uid://bd15kgl5ehw8f"]
 
 [ext_resource type="Shader" uid="uid://wgvyrxi7mllq" path="res://addons/Gridmap_Reforged/shaders/GridDisplayShader.tres" id="2_1u6tp"]
 [ext_resource type="Texture2D" uid="uid://j51hvk044h30" path="res://addons/Gridmap_Reforged/shaders/mask.png" id="2_5eura"]
 [ext_resource type="Script" path="res://addons/Gridmap_Reforged/scripts/GridCoord.gd" id="2_8dfx2"]
+[ext_resource type="Script" path="res://addons/Gridmap_Reforged/scripts/GridDisplay.gd" id="3_inyge"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_8oud4"]
 render_priority = 0
@@ -23,14 +24,15 @@ data = PackedVector3Array(2048, 0, 2034.5, -2048, 0, 2034.5, 2048, 0, -2034.5, -
 [node name="GridMap_Reforged" type="Node3D"]
 
 [node name="GridDisplay" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.224382)
 mesh = SubResource("PlaneMesh_rwgch")
+script = ExtResource("3_inyge")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="GridDisplay"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="GridDisplay/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_qoms2")
 
-[node name="GridCoord" type="Node3D" parent="GridDisplay"]
+[node name="GridCoord" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.224382)
 script = ExtResource("2_8dfx2")
 grid_width = 4096
