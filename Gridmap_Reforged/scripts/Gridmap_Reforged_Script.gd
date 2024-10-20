@@ -74,13 +74,16 @@ func _enter_tree():
 	GridCoord = gridMap_Reforged.find_child("GridCoord", true, false)
 	GridDisplay = gridMap_Reforged.find_child("GridDisplay", true, false)
 	
+	
 func _exit_tree():
 	# Libérer l'instance de GridMap_Reforged lorsqu'elle est supprimée de l'arbre
 	if gridMap_Reforged:
 		gridMap_Reforged.queue_free()
+		print("free")
 
 func Selected(): #when editor plugin sees us
 	GridDisplay.show()
+	GridDisplay.position.y = floor
 
 func Deselected(): #when editor plugin does not see us
 	GridDisplay.hide()
